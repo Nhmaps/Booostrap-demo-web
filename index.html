@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><img
+            src="./img/drift-king-logo-30C3F1B265-seeklogo.com.png"
+            alt="Dk"
+            style="width: 20%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="main-header">
+      <div class="background-overlay text-white">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-6 text-center justify-content-center align-self-lg-center"
+            >
+              <h1>Let's Go Drift</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nesciunt, illum.
+              </p>
+              <a href="" class="btn btn-danger btn-lg text-white"> GO! </a>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./img/poster.jpg"
+                alt="poster"
+                class="img-fluid d-none d-sm-block py-1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Newsletter -->
+    <section class="bg-dark text-white py-4">
+      <div class="container-fluid">
+        <div class="row">
+          <h4 class="text-center text-light p-1">
+            If you want know the events news!
+          </h4>
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              placeholder="Enter your Email"
+            />
+          </div>
+          <div class="col-md-4">
+            <a href="" class="btn btn-danger btn-lg text-white">Subscribe</a>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-5 bg-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-center bg-danger text-white border-dark">
+              <div class="card-body">
+                <h3>Feature one</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-warning text-black border-dark">
+              <div class="card-body">
+                <h3>Feature two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-danger text-white border-dark">
+              <div class="card-body">
+                <h3>Feature three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-warning text-black border-dark">
+              <div class="card-body">
+                <h3>Feature four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="bg-dark text-white text-center">
+      <div class="container">
+        <div class="d-flex flex-row">
+          <div class="m-4">
+            <h3>Why this web?</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Distinctio dolor assumenda architecto optio, accusantium nemo
+              similique mollitia nostrum facere quae recusandae, nihil quam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QA -->
+    <section class="container-fluid bg-dark text-center p-5">
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Refund Policy
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis maiores adipisci distinctio, fugit a ratione cum ad!
+                  Eum in voluptatem voluptates, ex error incidunt sint quam
+                  possimus corporis distinctio esse, explicabo vel aperiam
+                  excepturi expedita facere architecto! Modi, et repellendus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Community Rules
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quaerat aut necessitatibus quia odio reprehenderit obcaecati
+                  fugit quasi labore perferendis ut cupiditate unde laborum
+                  quisquam, possimus eius voluptates, excepturi, nihil totam
+                  quae? Iste velit asperiores quo tenetur voluptatem dolore,
+                  commodi inventore eius recusandae, molestias id! Quibusdam est
+                  ad veniam saepe nemo ullam iste dolorem accusantium
+                  consequatur deleniti.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Contac Us
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  obcaecati facilis, delectus rerum porro consectetur dolore
+                  asperiores praesentium aut enim illum ut at consequuntur amet.
+                  Voluptatibus dolorem consequatur dolorum incidunt a maiores
+                  porro amet, repudiandae deleniti cupiditate perspiciatis,
+                  temporibus placeat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team text-center">
+      <div class="container-fluid py-5 text-white bg-dark">
+        <h1>Team</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+          expedita!
+        </p>
+        <div class="row">
+          <!-- Member (sin orden)-->
+          <div class="col order-last">
+            <div
+              class="card bg-dark border border-warning"
+              style="width: 18rem"
+            >
+              <div class="card-body bg-gradient">
+                <img
+                  src="./img/Keiichi Tsuchiya.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title">Keiichi</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus, non!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col order-first">
+            <div
+              class="card bg-dark border border-warning"
+              style="width: 18rem"
+            >
+              <div class="card-body bg-gradient">
+                <img
+                  src="./img/Keiichi Tsuchiya.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title">Keiichi</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus, non!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col order-2">
+            <div
+              class="card bg-dark border border-warning"
+              style="width: 18rem"
+            >
+              <div class="card-body bg-gradient">
+                <img
+                  src="./img/Keiichi Tsuchiya.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title">Keiichi</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus, non!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col order-3">
+            <div
+              class="card bg-dark border border-warning"
+              style="width: 18rem"
+            >
+              <div class="card-body bg-gradient">
+                <img
+                  src="./img/Keiichi Tsuchiya.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title">Keiichi</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus, non!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-dark py-5 text-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Contac Us</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="input-group input-group-sm mb-3">
+              <span
+                class="input-group-text bg-dark text-white"
+                id="inputGroup-sizing-sm"
+                >Name</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm"
+              />
+            </div>
+
+            <div class="input-group mb-3">
+              <span
+                class="input-group-text bg-dark text-white"
+                id="inputGroup-sizing-default"
+                >Email</span
+              >
+              <input
+                type="email"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+
+            <div class="input-group input-group-lg">
+              <span
+                class="input-group-text bg-dark text-white"
+                id="inputGroup-sizing-lg"
+                >Menssage</span
+              >
+              <textarea
+                name=""
+                id=""
+                cols="110"
+                rows="4"
+                class="form-control"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <img
+              src="./img/drift-king-logo-30C3F1B265-seeklogo.com.png"
+              class="img-fluid m-5"
+              width="70%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="d-grid py-3 m-2">
+        <button class="btn btn-danger" type="button">Send</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid p-3 bg-dark text-white text-center">
+        <p>Copyright &copy; 2020</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
